@@ -54,3 +54,14 @@ developer of the change speaks only when spoken to.
     reviewers.
 -   [The PR Author's Guide](developer/index.md): A detailed guide for developers
     whose PRs are going through review.
+
+## Terminology
+
+There is some terminology used in some of these documents, which
+we clarify here:
+
+*   **PR**: Stands for "pull-request", which means one self-contained change that
+    has been submitted to version control or which is undergoing code review.
+    Other organizations might call this a "change", "patch", or "changelist".
+*   **LGTM**: Means "Looks Good to Me". It is what a code reviewer says when
+    approving a PR.

@@ -6,24 +6,16 @@ The following guidelines are intended for use with Linx and Stadium low-code too
     *   [Linx Style Guide](styleguide/linx-style.md)
 *   Principles
     *   [Coding Principles](principles/index.md)
+*   Source control
+    *   [Repo Structure](source-control/repo-structure.md)
+    *   [Workflow](source-control/workflow.md)
 *   [Code Review Guidelines](review/index.md)
     *   [The Reviewer's Guide](review/reviewer/index.md)
     *   [The Author's Guide](review/developer/index.md)
 
-## Terminology
-
-There is some terminology used in some of these documents, which
-we clarify here:
-
-*   **PR**: Stands for "pull-request", which means one self-contained change that
-    has been submitted to version control or which is undergoing code review.
-    Other organizations might call this a "change", "patch", or "changelist".
-*   **LGTM**: Means "Looks Good to Me". It is what a code reviewer says when
-    approving a PR.
-
 ## Accreditation
 
-Some of these documents are based on [Google's engineering practices](https://github.com/google/eng-practices). We've revised their ideas and practices to fit our low-code environment. Thanks Google!
+Code Review Guidelines are based on [Google's engineering practices](https://github.com/google/eng-practices). We've revised their ideas and practices to fit our low-code environment. Thanks Google!
 
 ## License
 
