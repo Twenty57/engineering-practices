@@ -12,6 +12,8 @@ The following guidelines are intended for use with Linx and Stadium low-code too
 *   [Code Review Guidelines](review/index.md)
     *   [The Reviewer's Guide](review/reviewer/index.md)
     *   [The Author's Guide](review/developer/index.md)
+*   Tests
+    *   [Testing Principles](tests/index.md)
 
 ## Accreditation
 
