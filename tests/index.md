@@ -1,6 +1,7 @@
 # Automated Tests
 
 ## Introduction
+
 The goal of writing and running tests is to reduce the cost of building and maintaining software. Good tests do this by
 
 - Preventing bugs from reaching production. A bug is much more expensive to fix in production than during development.
@@ -19,7 +20,7 @@ The goal of writing and running tests is to reduce the cost of building and main
 ## Best practices
 
 - Name tests [Name]\_[Scenario]_[ExpectedBehavior], like `CreateUser_WithNoName_Fails`. It explicitly expresses the intent of the test, which acts like documentation and makes it possible to infer the behavior of the code without looking at the code itself.
-- Structure the internals tests using the Arrange, Act, Assert pattern. This improves readability by clearly highlighting dependencies and assertions:
+- Structure the internals of tests using the Arrange, Act, Assert pattern. This improves readability by clearly highlighting dependencies and assertions:
     - Arrange variables, create and set them up as necessary.
     - Act. Call the functions to enact the behavior under test.
     - Assert that something is as expected.
@@ -28,5 +29,5 @@ The goal of writing and running tests is to reduce the cost of building and main
 
 ## Accreditation
 The guidelines in this document are largely based on our own experience but more eloquently expressed by: 
-- https://kentbeck.github.io/TestDesiderata/
-- https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices
+- <https://kentbeck.github.io/TestDesiderata/>
+- <https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices>
