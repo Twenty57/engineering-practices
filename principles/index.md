@@ -8,14 +8,14 @@ The following principles are there to help us navigate our way through the trade
 ## Principles
 Software development principles provide a framework for decision-making throughout the development process, influencing design, implementation, and maintenance.
 
-- **KISS (Keep It Simple, Stupid)**: Avoid unnecessary complexity. Remember, no code is better than code, and code will be read much more than it will be changed
-- **DRY (Don't Repeat Yourself)**: Don't write the same code in multiple places. This principle promotes reusability
-- **YAGNI (You Aren't Gonna Need It)**: Only implement what you need now. Don’t implement things you think you might need. Also see KISS
-- **SRP (Single Responsibility Principle)**: Every function, type, folder, service, or solution should have a single clearly defined responsibility
-- **PLK (Principle of Least Knowledge)**: A function or type should know as little as possible about its surroundings. In other words, avoid dependencies on things not passed in as parameters
-- **FF (Fail Fast)**: Fail quickly when an error occurs. Only catch exceptions when you know how to handle it
-- **PLA (Principle of Least Astonishment)**: Readers of your code should not be surprised by the contents of a function, type, folder, or solution
-- **BSR (Boy Scout Rule)**: Always leave the code cleaner than when you found it
+- **KISS (Keep It Simple, Stupid)**: Avoid unnecessary complexity. Remember, no code is better than code, and code will be read much more than it will be changed.
+- **DRY (Don't Repeat Yourself)**: Don't duplicate knowledge, or don't write the same code for the same behavior in multiple places.
+- **YAGNI (You Aren't Gonna Need It)**: Only implement what you need now. Don’t implement things you think you might need. Also see KISS.
+- **SRP (Single Responsibility Principle)**: Every function, type, folder, service, or solution should have a single clearly defined responsibility.
+- **PLK (Principle of Least Knowledge)**: A function or type should know as little as possible about its surroundings. In other words, avoid dependencies on things not passed in as parameters.
+- **FF (Fail Fast)**: Fail quickly when an error occurs. Only catch exceptions when you know how to handle it.
+- **PLA (Principle of Least Astonishment)**: Readers of your code should not be surprised by the contents of a function, type, folder, or solution.
+- **BSR (Boy Scout Rule)**: Always leave the code cleaner than when you found it.
 
 ## Code smells
 Code smells are characteristics of software that indicate a deeper problem in the code. They are not bugs — they don't stop the program from functioning — but they are indicators of poor design or implementation choices that can negatively affect the software's maintainability, readability, and overall quality. Code smells are the result of principles not followed. Here's a list of common code smells:
